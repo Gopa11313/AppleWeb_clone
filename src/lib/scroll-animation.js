@@ -37,7 +37,6 @@ export const scrollAnimation = (position, target, onUpdate) => {
         scrub: 2,
         immediateRender: false,
       },
-      onUpdate,
     })
     .to(".sound-section-content", {
       opacity: 1,
@@ -48,7 +47,6 @@ export const scrollAnimation = (position, target, onUpdate) => {
         scrub: 2,
         immediateRender: false,
       },
-      onUpdate,
     })
     //for diaplay section
     .to(position, {
@@ -75,7 +73,6 @@ export const scrollAnimation = (position, target, onUpdate) => {
         scrub: 2,
         immediateRender: false,
       },
-      onUpdate,
     })
     .to(".display-section", {
       opacity: 1,
@@ -86,6 +83,5 @@ export const scrollAnimation = (position, target, onUpdate) => {
         scrub: 2,
         immediateRender: false,
       },
-      onUpdate,
     });
 };
